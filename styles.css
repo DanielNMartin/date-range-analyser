@@ -1,0 +1,45 @@
+
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.bodySection {
+  font-size: 40px;
+}
+.Button {
+  margin-top:45px;
+  background-color: #D9D3BB;
+  border: 4px;
+  border-color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-top: 10px;
+
+}
+
+.startDate {
+    font: tahoma;
+    font-size: 26px;
+    color: navy;
+    border-color: black;
+}
+
+.endDate {
+    font: tahoma;
+    font-size: 26px;
+    color: navy;
+}
+
+.dateRangeIncrement {
+    font: tahoma;
+    font-size: 26px;
+    color: navy;
+    margin-bottom: 20px;
+}

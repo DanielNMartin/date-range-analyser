@@ -1,5 +1,5 @@
 
-function dateRangeAnaliser (startDate, endDate, step) {
+function dateRangeAnalyser (startDate, endDate, step) {
   var listDate = [];
   var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   while (startDate.getTime() < endDate.getTime()) {
@@ -15,7 +15,7 @@ function dateRangeAnaliser (startDate, endDate, step) {
 function showAlert (event) {
   var startDate = new Date(document.getElementById('startDate').value);
   var endDate = new Date(document.getElementById('endDate').value);
-  document.write(dateRangeAnaliser(startDate, endDate, parseInt(document.getElementById('dateRangeIncrement').value, 10)));
+  document.write(dateRangeAnalyser(startDate, endDate, parseInt(document.getElementById('dateRangeIncrement').value, 10)));
 }
 
 /*

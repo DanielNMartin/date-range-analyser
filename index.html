@@ -3,55 +3,7 @@
 
 <head>
  <Title>Date Range Analyser</Title>
-
-
- <style>
-      .header {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-decoration: underline;
-      }
-      .bodySection {
-        font-size: 40px;
-      }
-      .Button {
-        margin-top:45px;
-        background-color: #D9D3BB;
-        border: 4px;
-        border-color: black;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-top: 10px;
-
-      }
-
-      .Start_Date {
-          font: tahoma;
-          font-size: 26px;
-          color: navy;
-          border-color: black;
-      }
-
-      .End_Date {
-          font: tahoma;
-          font-size: 26px;
-          color: navy;
-      }
-
-      .Date_Range_Increment {
-          font: tahoma;
-          font-size: 26px;
-          color: navy;
-          margin-bottom: 20px;
-      }
-
-     </style>
-
+ <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
     <div class="header">
@@ -59,19 +11,19 @@
     </div>
     <div class="bodySection">
     <form>
-        <div class="Start_Date">
+        <div class="startDate">
         <label>Start Date:</label>
              <input type="date" id="startDate" />
         </div>
     </form>
     <form>
-        <div class="End_Date">
+        <div class="endDate">
         <label>End Date:</label>
              <input type="date" id="endDate" />
         </div>
     </form>
     <form>
-        <div class="Date_Range_Increment">
+        <div class="dateRangeIncrement">
         <label>Date Range Increment:</label>
              <input type="number" id="dateRangeIncrement" />
         </div>
