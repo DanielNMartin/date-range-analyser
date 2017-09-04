@@ -3,55 +3,32 @@
 
 <head>
  <Title>Date Range Analyser</Title>
- <script src="./index.js">
- </script>
-
- <style>
-      .header {
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
-      .Button {
-        margin-top:25px;
-
-      }
-
-      .Start_Date {
-          font-size: 20px;
-      }
-
-      .End_Date {
-          font-size: 20px;
-      }
-      .Date_Range_Increment {
-          font-size: 20px;
-      }
-
-     </style>
-
+ <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
     <div class="header">
         <h1>Date Range Analyser</h1>
     </div>
+    <div class="bodySection">
     <form>
-        <div class="Start_Date">
-        <label>Start Date</label>
+        <div class="startDate">
+        <label>Start Date:</label>
              <input type="date" id="startDate" />
         </div>
     </form>
     <form>
-        <div class="End_Date">
-        <label>End Date</label>
+        <div class="endDate">
+        <label>End Date:</label>
              <input type="date" id="endDate" />
         </div>
     </form>
     <form>
-        <div class="Date_Range_Increment">
-        <label>Date Range Increment</label>
+        <div class="dateRangeIncrement">
+        <label>Date Range Increment:</label>
              <input type="number" id="dateRangeIncrement" />
         </div>
     </form>
+  </div>
 <section>
  <div class="Button">
     <button onclick="showAlert(event)" pre="Result" title="Result">Result</button>
@@ -59,5 +36,7 @@
 </div>
 </section>
 </div>
+<script src="./index.js">
+</script>
 </body>
 </html>
